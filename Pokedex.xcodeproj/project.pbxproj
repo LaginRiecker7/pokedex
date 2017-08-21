@@ -14,6 +14,7 @@
 		C7A131441F4AD2530034634D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A131421F4AD2530034634D /* LaunchScreen.storyboard */; };
 		C7A1314F1F4AD2530034634D /* PokedexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A1314E1F4AD2530034634D /* PokedexTests.swift */; };
 		C7A1315A1F4AD2530034634D /* PokedexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A131591F4AD2530034634D /* PokedexUITests.swift */; };
+		C7F229481F4AD778008BA5C3 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = C7F229471F4AD778008BA5C3 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C7A131551F4AD2530034634D /* PokedexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokedexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A131591F4AD2530034634D /* PokedexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexUITests.swift; sourceTree = "<group>"; };
 		C7A1315B1F4AD2530034634D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F229471F4AD778008BA5C3 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				C7A1313B1F4AD2530034634D /* ViewController.swift */,
 				C7A1313D1F4AD2530034634D /* Main.storyboard */,
 				C7A131401F4AD2530034634D /* Assets.xcassets */,
+				C7F229471F4AD778008BA5C3 /* pokemon.csv */,
 				C7A131421F4AD2530034634D /* LaunchScreen.storyboard */,
 				C7A131451F4AD2530034634D /* Info.plist */,
 			);
@@ -234,6 +237,7 @@
 			files = (
 				C7A131441F4AD2530034634D /* LaunchScreen.storyboard in Resources */,
 				C7A131411F4AD2530034634D /* Assets.xcassets in Resources */,
+				C7F229481F4AD778008BA5C3 /* pokemon.csv in Resources */,
 				C7A1313F1F4AD2530034634D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +511,7 @@
 				C7A131601F4AD2530034634D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7A131611F4AD2530034634D /* Build configuration list for PBXNativeTarget "PokedexTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				C7A131631F4AD2530034634D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7A131641F4AD2530034634D /* Build configuration list for PBXNativeTarget "PokedexUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				C7A131661F4AD2530034634D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
